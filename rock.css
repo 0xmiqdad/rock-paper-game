@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.score {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+#score-value {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.choice {
+    background-color: #ddd;
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    font-size: 24px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.choice:hover {
+    background-color: #ccc;
+}
+
+.result {
+    margin-top: 20px;
+}
+
+.result-text {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.result-choice {
+    font-size: 36px;
+    margin: 10px 0;
+}
+
+.result-outcome {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+#play-again {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#play-again:hover {
+    background-color: #0056b3;
+}
+
+.hidden {
+    display: none;
+}
